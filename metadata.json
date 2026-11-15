@@ -1,0 +1,6 @@
+{
+  "name": "Pulso",
+  "description": "Aplicativo de teste com modo de jogo para iniciantes e tutorial interativo passo a passo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

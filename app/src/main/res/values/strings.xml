@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Pulso</string>
+
+    <!-- Home Screen -->
+    <string name="home_badge_test">APP DE TESTE • MODO INICIANTE</string>
+    <string name="home_title">Pulso Lógico</string>
+    <string name="home_subtitle">Aprenda jogando em 4 passos rápidos, sem pressa e sem cronômetro.</string>
+    <string name="home_hero_desc">Ilustração geométrica dos blocos luminosos de energia do jogo Pulso</string>
+    <string name="home_btn_start_tutorial">Iniciar Tutorial Passo a Passo</string>
+    <string name="home_btn_repeat_tutorial">Repetir Tutorial Passo a Passo</string>
+    <string name="home_tutorial_desc">Guia interativo com 4 etapas práticas dentro do tabuleiro.</string>
+    <string name="home_badge_recommended">RECOMENDADO</string>
+    <string name="home_badge_done">CONCLUÍDO</string>
+    <string name="home_btn_beginner_practice">Modo Iniciante Livre</string>
+    <string name="home_beginner_practice_desc">Sem tempo limite, com dicas visuais automáticas e energia extra.</string>
+    <string name="home_btn_standard_mode">Desafio Padrão (4x4)</string>
+    <string name="home_standard_mode_desc">Tabuleiro completo de 15 jogadas para testar sua estratégia.</string>
+    <string name="home_section_quick_rules">Como funciona em 3 pontos</string>
+    <string name="home_btn_full_rules">Ver Guia Completo</string>
+
+    <!-- Rule Summaries -->
+    <string name="rule_1_title">1. Conecte Iguais</string>
+    <string name="rule_1_body">Toque em 2 ou mais blocos da mesma cor lado a lado para coletar pontos.</string>
+    <string name="rule_2_title">2. Crie Combos</string>
+    <string name="rule_2_body">Grupos com 3+ blocos multiplicam pontos e carregam sua Energia (⚡).</string>
+    <string name="rule_3_title">3. Ative o Pulso</string>
+    <string name="rule_3_body">Com 3 cargas de Energia, limpe todos os blocos de uma cor de uma vez.</string>
+    <string name="beginner_tip_title">Vantagens do Modo Iniciante</string>
+    <string name="beginner_tip_body">Sem cronômetro, destaque automático de jogadas válidas e embaralhamento gratuito se o tabuleiro travar.</string>
+
+    <!-- Game Screen & Top Bar -->
+    <string name="cd_back">Voltar para a tela inicial</string>
+    <string name="cd_rules">Abrir regras do jogo</string>
+    <string name="cd_hint">Mostrar dica de jogada</string>
+    <string name="mode_tutorial_label">Tutorial Guiado</string>
+    <string name="mode_beginner_label">Modo Iniciante</string>
+    <string name="mode_standard_label">Desafio Padrão</string>
+    <string name="hud_score">Pontos</string>
+    <string name="hud_goal_format">Meta: %1$d</string>
+    <string name="hud_moves_left_format">%1$d jogadas</string>
+    <string name="hud_unlimited_moves">Sem tempo</string>
+    <string name="hud_energy_label">Energia ⚡</string>
+    <string name="btn_pulse_ready">Ativar Pulso ⚡</string>
+    <string name="btn_pulse_armed">Escolha uma cor!</string>
+    <string name="btn_pulse_charging">Carregando (%1$d/3)</string>
+    <string name="btn_skip_tutorial">Pular</string>
+    <string name="btn_hint">Dica</string>
+    <string name="btn_restart">Reiniciar</string>
+
+    <!-- Tutorial Steps -->
+    <string name="tutorial_progress_format">Passo %1$d de %2$d</string>
+    <string name="tut_step1_title">Toque em blocos iguais</string>
+    <string name="tut_step1_desc">Encontre 2 ou mais blocos vizinhos da mesma cor. Toque no grupo amarelo iluminado para coletar seus primeiros pontos.</string>
+    <string name="tut_step2_title">Grupos maiores dão Energia</string>
+    <string name="tut_step2_desc">Excelente! Agora toque no grupo azul de 4 blocos para ganhar bônus de combo e completar sua barra de Energia (⚡).</string>
+    <string name="tut_step3_title">Ative o Poder Pulso</string>
+    <string name="tut_step3_desc">Energia cheia! Toque no botão “Ativar Pulso ⚡” abaixo e depois escolha qualquer bloco coral para limpar toda essa cor.</string>
+    <string name="tut_step3_armed_desc">Pulso ativado! Agora toque em qualquer bloco coral (fogo) para remover todos eles do tabuleiro de uma só vez.</string>
+    <string name="tut_step4_title">Sua vez! Prática guiada</string>
+    <string name="tut_step4_desc">Combine grupos para atingir 120 pontos. Se ficar em dúvida, aguarde o brilho da dica ou toque em “Dica”.</string>
+
+    <!-- Feedback & Dialogs -->
+    <string name="feedback_single_tile_warning">Toque em um grupo com pelo menos 2 blocos iguais conectados.</string>
+    <string name="feedback_follow_spotlight">No tutorial, toque na área destacada para seguir o passo atual.</string>
+    <string name="feedback_pulse_prompt">Pulso armado! Toque em qualquer bloco da cor que deseja limpar.</string>
+    <string name="feedback_reshuffled">Sem jogadas disponíveis — tabuleiro reorganizado!</string>
+    <string name="feedback_hint_shown">Dica ativada: observe os blocos destacados!</string>
+    <string name="feedback_points_format">+%1$d pts (%2$d blocos)</string>
+    <string name="feedback_combo_energy_format">+%1$d pts • Combo! ⚡+1</string>
+    <string name="feedback_pulse_cleared_format">Pulso ⚡ removeu %1$d blocos (+%2$d pts)</string>
+
+    <!-- Completion Overlay -->
+    <string name="complete_tutorial_title">Tutorial Concluído!</string>
+    <string name="complete_tutorial_body">Você dominou as regras básicas do Pulso. Continue no Modo Iniciante para praticar ou avance para o Desafio Padrão.</string>
+    <string name="complete_round_title">Meta Atingida!</string>
+    <string name="complete_round_body">Ótima partida! Você fez %1$d pontos. Quer jogar outra rodada ou testar o próximo modo?</string>
+    <string name="gameover_title">Fim das Jogadas</string>
+    <string name="gameover_body">Você marcou %1$d pontos no Desafio Padrão. Tente novamente para superar sua marca!</string>
+    <string name="btn_continue_beginner">Continuar no Modo Iniciante</string>
+    <string name="btn_try_standard">Ir para Desafio Padrão</string>
+    <string name="btn_play_again">Jogar Novamente</string>
+    <string name="btn_back_home">Voltar ao Início</string>
+
+    <!-- Tile Accessibility Labels -->
+    <string name="tile_solar">Bloco Solar Amarelo</string>
+    <string name="tile_onda">Bloco Onda Azul</string>
+    <string name="tile_chama">Bloco Chama Coral</string>
+    <string name="tile_folha">Bloco Folha Verde</string>
+
+    <!-- Rules Sheet -->
+    <string name="rules_sheet_title">Regras Rápidas do Pulso</string>
+    <string name="rules_sheet_close">Entendi</string>
+</resources>
